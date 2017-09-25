@@ -1,0 +1,15 @@
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/home/qlsglby/.rvm/rubies/ruby-2.4.1/bin/ruby -r ./siteconf20170925-32025-uw436p.rb extconf.rb
+creating Makefile
+
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20170925-32025-2zr9jf/bindex

@@ -1,0 +1,15 @@
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/qlsglby/.rvm/rubies/ruby-2.4.1/bin/ruby -r ./siteconf20170925-32025-1wqcg8d.rb extconf.rb
+creating Makefile
+
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/qlsglby/get_csh/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20170925-32025-1w907xm

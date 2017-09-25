@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Province:</strong>
+  <%= @province.province %>
+</p>
+<%= render  @province.cities %>
+<h2>Add a city:</h2>
+<%= form_with(model: [ @province, @province.cities.build ], local: true) do |form| %>
+  <p>
+    <%= form.label :city %><br>
+    <%= form.text_field :city %>
+  </p>
+  
+    <%= form.submit %>
+  </p>
+<% end %>
+<%= link_to 'Edit', edit_province_path(@province) %> |
+<%= link_to 'Back', provinces_path %>
